@@ -11,7 +11,9 @@ Purpose of this repository is to play with Headless CMS ${\color{lightgreen}Dire
 :four: Docker *seperate container* [postgres link](https://github.com/connecteddots/postgres-containers) ${\textsf{\color{yellow}(optional step)}}$
 
 ## Environment
-We need to create a environment file *.env*.
+
+<details>
+<summary>We need to create a environment file *.env* 👈.</summary><br>
 
 ```dosini
 ####################################################################################################
@@ -234,7 +236,7 @@ EXTENSIONS_PATH="./extensions"
 # Automatically reload extensions when they have changed [false]
 EXTENSIONS_AUTO_RELOAD=false
 ```
-
+</details>
 
 ## How to setup
 We have to specify directus specific version to work with from a [direcus release page](https://github.com/directus/directus/releases) in *packages.json* file :heavy_check_mark:.
