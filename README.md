@@ -13,7 +13,7 @@ Purpose of this repository is to play with Headless CMS ${\color{lightgreen}Dire
 ## Environment
 We need to create a environment file *.env*.
 
-```
+``````dosini
 ####################################################################################################
 #
 # These values set environment variables which modify core settings of Directus.
